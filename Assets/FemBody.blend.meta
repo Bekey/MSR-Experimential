@@ -1,0 +1,1432 @@
+fileFormatVersion: 2
+guid: 542aa18de8324ed43a19c479db9d81de
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Arms
+    100002: BipedRig
+    100004: BipedRig_001
+    100006: Feet
+    100008: //RootNode
+    100010: FingersL1
+    100012: FingersL2
+    100014: FingersL3
+    100016: FingersL4
+    100018: FingersR1
+    100020: FingersR2
+    100022: FingersR3
+    100024: FingersR4
+    100026: FootL
+    100028: FootL_0
+    100030: FootR
+    100032: FootR_0
+    100034: Hands
+    100036: Head2
+    100038: HeelL
+    100040: HeelL_0
+    100042: HeelR
+    100044: HeelR_0
+    100046: HumerusL
+    100048: HumerusL_0
+    100050: HumerusR
+    100052: HumerusR_0
+    100054: Legs
+    100056: Lowerback
+    100058: Lowerback_0
+    100060: LowerlegL
+    100062: LowerlegL_0
+    100064: LowerlegR
+    100066: LowerlegR_0
+    100068: Malebody
+    100070: Neck
+    100072: Neck_0
+    100074: PalmL
+    100076: PalmL_0
+    100078: PalmR
+    100080: PalmR_0
+    100082: Pelvis
+    100084: Pelvis_0
+    100086: PelvisL
+    100088: PelvisL_0
+    100090: PelvisL_007
+    100092: PelvisL_008
+    100094: PelvisL_009
+    100096: PelvisR
+    100098: PelvisR_0
+    100100: PelvisR_007
+    100102: PelvisR_008
+    100104: PelvisR_009
+    100106: RadiusL
+    100108: RadiusL_0
+    100110: RadiusR
+    100112: RadiusR_0
+    100114: ShoulderL
+    100116: ShoulderL_0
+    100118: ShoulderR
+    100120: ShoulderR_0
+    100122: Skirtrig
+    100124: Skull
+    100126: Skull_0
+    100128: Spine1
+    100130: Spine2
+    100132: Spine3
+    100134: Spine4
+    100136: ThumbL1
+    100138: ThumbL2
+    100140: ThumbL3
+    100142: ThumbL4
+    100144: ThumbR1
+    100146: ThumbR2
+    100148: ThumbR3
+    100150: ThumbR4
+    100152: ToesL
+    100154: ToesL_0
+    100156: ToesR
+    100158: ToesR_0
+    100160: Torso
+    100162: UpperlegL
+    100164: UpperlegL_0
+    100166: UpperlegR
+    100168: UpperlegR_0
+    400000: Arms
+    400002: BipedRig
+    400004: BipedRig_001
+    400006: Feet
+    400008: //RootNode
+    400010: FingersL1
+    400012: FingersL2
+    400014: FingersL3
+    400016: FingersL4
+    400018: FingersR1
+    400020: FingersR2
+    400022: FingersR3
+    400024: FingersR4
+    400026: FootL
+    400028: FootL_0
+    400030: FootR
+    400032: FootR_0
+    400034: Hands
+    400036: Head2
+    400038: HeelL
+    400040: HeelL_0
+    400042: HeelR
+    400044: HeelR_0
+    400046: HumerusL
+    400048: HumerusL_0
+    400050: HumerusR
+    400052: HumerusR_0
+    400054: Legs
+    400056: Lowerback
+    400058: Lowerback_0
+    400060: LowerlegL
+    400062: LowerlegL_0
+    400064: LowerlegR
+    400066: LowerlegR_0
+    400068: Malebody
+    400070: Neck
+    400072: Neck_0
+    400074: PalmL
+    400076: PalmL_0
+    400078: PalmR
+    400080: PalmR_0
+    400082: Pelvis
+    400084: Pelvis_0
+    400086: PelvisL
+    400088: PelvisL_0
+    400090: PelvisL_007
+    400092: PelvisL_008
+    400094: PelvisL_009
+    400096: PelvisR
+    400098: PelvisR_0
+    400100: PelvisR_007
+    400102: PelvisR_008
+    400104: PelvisR_009
+    400106: RadiusL
+    400108: RadiusL_0
+    400110: RadiusR
+    400112: RadiusR_0
+    400114: ShoulderL
+    400116: ShoulderL_0
+    400118: ShoulderR
+    400120: ShoulderR_0
+    400122: Skirtrig
+    400124: Skull
+    400126: Skull_0
+    400128: Spine1
+    400130: Spine2
+    400132: Spine3
+    400134: Spine4
+    400136: ThumbL1
+    400138: ThumbL2
+    400140: ThumbL3
+    400142: ThumbL4
+    400144: ThumbR1
+    400146: ThumbR2
+    400148: ThumbR3
+    400150: ThumbR4
+    400152: ToesL
+    400154: ToesL_0
+    400156: ToesR
+    400158: ToesR_0
+    400160: Torso
+    400162: UpperlegL
+    400164: UpperlegL_0
+    400166: UpperlegR
+    400168: UpperlegR_0
+    4300000: Hands
+    4300004: Head2
+    4300006: Feet
+    4300008: Legs
+    4300010: Arms
+    4300012: Torso
+    7400000: Idle
+    7400002: Walking
+    7400004: WalkEndTrans
+    9500000: //RootNode
+    13700000: Arms
+    13700002: Feet
+    13700004: Hands
+    13700006: Head2
+    13700008: Legs
+    13700010: Malebody
+    13700012: Torso
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 1
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths:
+    - Hands
+    - Hands/Skirtrig/PelvisL_007/PelvisL_008/PelvisL_009
+    - Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderL/HumerusL/RadiusL/PalmL
+    - Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderL/HumerusL/RadiusL/PalmL/FingersL1
+    - Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderR/HumerusR/RadiusR/PalmR
+    - Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderR/HumerusR/RadiusR/PalmR/FingersR1
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Default Take
+      firstFrame: 45
+      lastFrame: 297
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arms
+        weight: 0
+      - path: Feet
+        weight: 0
+      - path: Hands
+        weight: 1
+      - path: Hands/BipedRig
+        weight: 1
+      - path: Hands/BipedRig/Pelvis
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/Neck
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/Neck/Skull
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderL
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderL/HumerusL
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderL/HumerusL/RadiusL
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderL/HumerusL/RadiusL/PalmL
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderL/HumerusL/RadiusL/PalmL/FingersL1
+        weight: 0
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderL/HumerusL/RadiusL/PalmL/FingersL1/FingersL2
+        weight: 0
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderL/HumerusL/RadiusL/ThumbL1
+        weight: 0
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderL/HumerusL/RadiusL/ThumbL1/ThumbL2
+        weight: 0
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderR
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderR/HumerusR
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderR/HumerusR/RadiusR
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderR/HumerusR/RadiusR/PalmR
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderR/HumerusR/RadiusR/PalmR/FingersR1
+        weight: 0
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderR/HumerusR/RadiusR/PalmR/FingersR1/FingersR2
+        weight: 0
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderR/HumerusR/RadiusR/ThumbR1
+        weight: 0
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderR/HumerusR/RadiusR/ThumbR1/ThumbR2
+        weight: 0
+      - path: Hands/BipedRig/Pelvis/PelvisL
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/PelvisL/UpperlegL
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/PelvisL/UpperlegL/LowerlegL
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/PelvisL/UpperlegL/LowerlegL/FootL
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/PelvisL/UpperlegL/LowerlegL/FootL/ToesL
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/PelvisL/UpperlegL/LowerlegL/HeelL
+        weight: 0
+      - path: Hands/BipedRig/Pelvis/PelvisR
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/PelvisR/UpperlegR
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/PelvisR/UpperlegR/LowerlegR
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/PelvisR/UpperlegR/LowerlegR/FootR
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/PelvisR/UpperlegR/LowerlegR/FootR/ToesR
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/PelvisR/UpperlegR/LowerlegR/HeelR
+        weight: 0
+      - path: Hands/Skirtrig
+        weight: 0
+      - path: Hands/Skirtrig/PelvisL_007
+        weight: 0
+      - path: Hands/Skirtrig/PelvisL_007/PelvisL_008
+        weight: 0
+      - path: Hands/Skirtrig/PelvisL_007/PelvisL_008/PelvisL_009
+        weight: 0
+      - path: Hands/Skirtrig/PelvisR_007
+        weight: 0
+      - path: Hands/Skirtrig/PelvisR_007/PelvisR_008
+        weight: 0
+      - path: Hands/Skirtrig/PelvisR_007/PelvisR_008/PelvisR_009
+        weight: 0
+      - path: Head2
+        weight: 0
+      - path: Legs
+        weight: 0
+      - path: Malebody
+        weight: 0
+      - path: Malebody/BipedRig_001
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/Neck_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/Neck_0/Skull_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderL_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderL_0/HumerusL_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderL_0/HumerusL_0/RadiusL_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderL_0/HumerusL_0/RadiusL_0/PalmL_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderL_0/HumerusL_0/RadiusL_0/PalmL_0/FingersL3
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderL_0/HumerusL_0/RadiusL_0/PalmL_0/FingersL3/FingersL4
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderL_0/HumerusL_0/RadiusL_0/ThumbL3
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderL_0/HumerusL_0/RadiusL_0/ThumbL3/ThumbL4
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderR_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderR_0/HumerusR_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderR_0/HumerusR_0/RadiusR_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderR_0/HumerusR_0/RadiusR_0/PalmR_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderR_0/HumerusR_0/RadiusR_0/PalmR_0/FingersR3
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderR_0/HumerusR_0/RadiusR_0/PalmR_0/FingersR3/FingersR4
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderR_0/HumerusR_0/RadiusR_0/ThumbR3
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderR_0/HumerusR_0/RadiusR_0/ThumbR3/ThumbR4
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisL_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisL_0/UpperlegL_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisL_0/UpperlegL_0/LowerlegL_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisL_0/UpperlegL_0/LowerlegL_0/FootL_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisL_0/UpperlegL_0/LowerlegL_0/FootL_0/ToesL_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisL_0/UpperlegL_0/LowerlegL_0/HeelL_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisR_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisR_0/UpperlegR_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisR_0/UpperlegR_0/LowerlegR_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisR_0/UpperlegR_0/LowerlegR_0/FootR_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisR_0/UpperlegR_0/LowerlegR_0/FootR_0/ToesR_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisR_0/UpperlegR_0/LowerlegR_0/HeelR_0
+        weight: 0
+      - path: Torso
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walking
+      takeName: BipedRigAction
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arms
+        weight: 0
+      - path: Feet
+        weight: 0
+      - path: Hands
+        weight: 1
+      - path: Hands/BipedRig
+        weight: 1
+      - path: Hands/BipedRig/Pelvis
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/Neck
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/Neck/Skull
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderL
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderL/HumerusL
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderL/HumerusL/RadiusL
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderL/HumerusL/RadiusL/PalmL
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderL/HumerusL/RadiusL/PalmL/FingersL1
+        weight: 0
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderL/HumerusL/RadiusL/PalmL/FingersL1/FingersL2
+        weight: 0
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderL/HumerusL/RadiusL/ThumbL1
+        weight: 0
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderL/HumerusL/RadiusL/ThumbL1/ThumbL2
+        weight: 0
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderR
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderR/HumerusR
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderR/HumerusR/RadiusR
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderR/HumerusR/RadiusR/PalmR
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderR/HumerusR/RadiusR/PalmR/FingersR1
+        weight: 0
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderR/HumerusR/RadiusR/PalmR/FingersR1/FingersR2
+        weight: 0
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderR/HumerusR/RadiusR/ThumbR1
+        weight: 0
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderR/HumerusR/RadiusR/ThumbR1/ThumbR2
+        weight: 0
+      - path: Hands/BipedRig/Pelvis/PelvisL
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/PelvisL/UpperlegL
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/PelvisL/UpperlegL/LowerlegL
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/PelvisL/UpperlegL/LowerlegL/FootL
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/PelvisL/UpperlegL/LowerlegL/FootL/ToesL
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/PelvisL/UpperlegL/LowerlegL/HeelL
+        weight: 0
+      - path: Hands/BipedRig/Pelvis/PelvisR
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/PelvisR/UpperlegR
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/PelvisR/UpperlegR/LowerlegR
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/PelvisR/UpperlegR/LowerlegR/FootR
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/PelvisR/UpperlegR/LowerlegR/FootR/ToesR
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/PelvisR/UpperlegR/LowerlegR/HeelR
+        weight: 0
+      - path: Hands/Skirtrig
+        weight: 0
+      - path: Hands/Skirtrig/PelvisL_007
+        weight: 0
+      - path: Hands/Skirtrig/PelvisL_007/PelvisL_008
+        weight: 0
+      - path: Hands/Skirtrig/PelvisL_007/PelvisL_008/PelvisL_009
+        weight: 0
+      - path: Hands/Skirtrig/PelvisR_007
+        weight: 0
+      - path: Hands/Skirtrig/PelvisR_007/PelvisR_008
+        weight: 0
+      - path: Hands/Skirtrig/PelvisR_007/PelvisR_008/PelvisR_009
+        weight: 0
+      - path: Head2
+        weight: 0
+      - path: Legs
+        weight: 0
+      - path: Malebody
+        weight: 0
+      - path: Malebody/BipedRig_001
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/Neck_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/Neck_0/Skull_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderL_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderL_0/HumerusL_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderL_0/HumerusL_0/RadiusL_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderL_0/HumerusL_0/RadiusL_0/PalmL_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderL_0/HumerusL_0/RadiusL_0/PalmL_0/FingersL3
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderL_0/HumerusL_0/RadiusL_0/PalmL_0/FingersL3/FingersL4
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderL_0/HumerusL_0/RadiusL_0/ThumbL3
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderL_0/HumerusL_0/RadiusL_0/ThumbL3/ThumbL4
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderR_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderR_0/HumerusR_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderR_0/HumerusR_0/RadiusR_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderR_0/HumerusR_0/RadiusR_0/PalmR_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderR_0/HumerusR_0/RadiusR_0/PalmR_0/FingersR3
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderR_0/HumerusR_0/RadiusR_0/PalmR_0/FingersR3/FingersR4
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderR_0/HumerusR_0/RadiusR_0/ThumbR3
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderR_0/HumerusR_0/RadiusR_0/ThumbR3/ThumbR4
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisL_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisL_0/UpperlegL_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisL_0/UpperlegL_0/LowerlegL_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisL_0/UpperlegL_0/LowerlegL_0/FootL_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisL_0/UpperlegL_0/LowerlegL_0/FootL_0/ToesL_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisL_0/UpperlegL_0/LowerlegL_0/HeelL_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisR_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisR_0/UpperlegR_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisR_0/UpperlegR_0/LowerlegR_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisR_0/UpperlegR_0/LowerlegR_0/FootR_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisR_0/UpperlegR_0/LowerlegR_0/FootR_0/ToesR_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisR_0/UpperlegR_0/LowerlegR_0/HeelR_0
+        weight: 0
+      - path: Torso
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: WalkEndTrans
+      takeName: BipedRigAction_001
+      firstFrame: 27
+      lastFrame: 46
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arms
+        weight: 0
+      - path: Feet
+        weight: 0
+      - path: Hands
+        weight: 1
+      - path: Hands/BipedRig
+        weight: 1
+      - path: Hands/BipedRig/Pelvis
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/Neck
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/Neck/Skull
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderL
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderL/HumerusL
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderL/HumerusL/RadiusL
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderL/HumerusL/RadiusL/PalmL
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderL/HumerusL/RadiusL/PalmL/FingersL1
+        weight: 0
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderL/HumerusL/RadiusL/PalmL/FingersL1/FingersL2
+        weight: 0
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderL/HumerusL/RadiusL/ThumbL1
+        weight: 0
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderL/HumerusL/RadiusL/ThumbL1/ThumbL2
+        weight: 0
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderR
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderR/HumerusR
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderR/HumerusR/RadiusR
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderR/HumerusR/RadiusR/PalmR
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderR/HumerusR/RadiusR/PalmR/FingersR1
+        weight: 0
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderR/HumerusR/RadiusR/PalmR/FingersR1/FingersR2
+        weight: 0
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderR/HumerusR/RadiusR/ThumbR1
+        weight: 0
+      - path: Hands/BipedRig/Pelvis/Lowerback/Spine1/Spine2/ShoulderR/HumerusR/RadiusR/ThumbR1/ThumbR2
+        weight: 0
+      - path: Hands/BipedRig/Pelvis/PelvisL
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/PelvisL/UpperlegL
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/PelvisL/UpperlegL/LowerlegL
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/PelvisL/UpperlegL/LowerlegL/FootL
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/PelvisL/UpperlegL/LowerlegL/FootL/ToesL
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/PelvisL/UpperlegL/LowerlegL/HeelL
+        weight: 0
+      - path: Hands/BipedRig/Pelvis/PelvisR
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/PelvisR/UpperlegR
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/PelvisR/UpperlegR/LowerlegR
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/PelvisR/UpperlegR/LowerlegR/FootR
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/PelvisR/UpperlegR/LowerlegR/FootR/ToesR
+        weight: 1
+      - path: Hands/BipedRig/Pelvis/PelvisR/UpperlegR/LowerlegR/HeelR
+        weight: 0
+      - path: Hands/Skirtrig
+        weight: 0
+      - path: Hands/Skirtrig/PelvisL_007
+        weight: 0
+      - path: Hands/Skirtrig/PelvisL_007/PelvisL_008
+        weight: 0
+      - path: Hands/Skirtrig/PelvisL_007/PelvisL_008/PelvisL_009
+        weight: 0
+      - path: Hands/Skirtrig/PelvisR_007
+        weight: 0
+      - path: Hands/Skirtrig/PelvisR_007/PelvisR_008
+        weight: 0
+      - path: Hands/Skirtrig/PelvisR_007/PelvisR_008/PelvisR_009
+        weight: 0
+      - path: Head2
+        weight: 0
+      - path: Legs
+        weight: 0
+      - path: Malebody
+        weight: 0
+      - path: Malebody/BipedRig_001
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/Neck_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/Neck_0/Skull_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderL_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderL_0/HumerusL_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderL_0/HumerusL_0/RadiusL_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderL_0/HumerusL_0/RadiusL_0/PalmL_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderL_0/HumerusL_0/RadiusL_0/PalmL_0/FingersL3
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderL_0/HumerusL_0/RadiusL_0/PalmL_0/FingersL3/FingersL4
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderL_0/HumerusL_0/RadiusL_0/ThumbL3
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderL_0/HumerusL_0/RadiusL_0/ThumbL3/ThumbL4
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderR_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderR_0/HumerusR_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderR_0/HumerusR_0/RadiusR_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderR_0/HumerusR_0/RadiusR_0/PalmR_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderR_0/HumerusR_0/RadiusR_0/PalmR_0/FingersR3
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderR_0/HumerusR_0/RadiusR_0/PalmR_0/FingersR3/FingersR4
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderR_0/HumerusR_0/RadiusR_0/ThumbR3
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/Lowerback_0/Spine3/Spine4/ShoulderR_0/HumerusR_0/RadiusR_0/ThumbR3/ThumbR4
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisL_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisL_0/UpperlegL_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisL_0/UpperlegL_0/LowerlegL_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisL_0/UpperlegL_0/LowerlegL_0/FootL_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisL_0/UpperlegL_0/LowerlegL_0/FootL_0/ToesL_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisL_0/UpperlegL_0/LowerlegL_0/HeelL_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisR_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisR_0/UpperlegR_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisR_0/UpperlegR_0/LowerlegR_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisR_0/UpperlegR_0/LowerlegR_0/FootR_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisR_0/UpperlegR_0/LowerlegR_0/FootR_0/ToesR_0
+        weight: 0
+      - path: Malebody/BipedRig_001/Pelvis_0/PelvisR_0/UpperlegR_0/LowerlegR_0/HeelR_0
+        weight: 0
+      - path: Torso
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperlegL
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperlegR
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerlegL
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerlegR
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FootL
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FootR
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skull
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ShoulderL
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ShoulderR
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumerusL
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HumerusR
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RadiusL
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RadiusR
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PalmL
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PalmR
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ToesL
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ToesR
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: FemBody(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Arms
+      position: {x: 5.82080009e-11, y: 1.1920929e-07, z: 3.72528497e-09}
+      rotation: {x: -.707106888, y: 0, z: -0, w: .707106769}
+      scale: {x: .457439214, y: .457439214, z: .457439214}
+      transformModified: 1
+    - name: Feet
+      position: {x: 5.82080009e-11, y: 1.1920929e-07, z: 3.72528497e-09}
+      rotation: {x: -.707106888, y: 0, z: -0, w: .707106769}
+      scale: {x: .457439214, y: .457439214, z: .457439214}
+      transformModified: 1
+    - name: Hands
+      position: {x: 5.82080009e-11, y: 1.1920929e-07, z: 3.72528497e-09}
+      rotation: {x: -.707106888, y: 0, z: -0, w: .707106769}
+      scale: {x: .457439214, y: .457439214, z: .457439214}
+      transformModified: 1
+    - name: BipedRig
+      position: {x: -1.27247005e-10, y: 8.1437932e-09, z: -2.60601382e-07}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 2.18608284, y: 2.18608284, z: 2.18608284}
+      transformModified: 1
+    - name: Pelvis
+      position: {x: -0, y: .157431602, z: 1.06833434}
+      rotation: {x: .704690516, y: .706201017, z: .0357787423, w: -.0584062822}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: Lowerback
+      position: {x: -.103146911, y: 1.23838282e-08, z: 1.94352438e-07}
+      rotation: {x: -.0444762371, y: -.708897352, z: -.0220246334, w: .703563392}
+      scale: {x: .999999285, y: 1, z: .999999166}
+      transformModified: 1
+    - name: Spine1
+      position: {x: -.171580285, y: 1.13228289e-08, z: 8.40865511e-09}
+      rotation: {x: .0470392779, y: -.0405001044, z: -.00190874829, w: .998069823}
+      scale: {x: 1.00000048, y: 1.00000036, z: 1.00000036}
+      transformModified: 1
+    - name: Spine2
+      position: {x: -.16846092, y: 1.86191595e-08, z: 1.01833272e-07}
+      rotation: {x: -4.81288538e-08, y: -.115500472, z: -2.74661165e-08, w: .993307412}
+      scale: {x: 1, y: 1.00000024, z: .999999583}
+      transformModified: 1
+    - name: Neck
+      position: {x: -.296430111, y: -7.22846005e-09, z: 8.62773888e-08}
+      rotation: {x: 1.0923654e-08, y: .22050333, z: -2.43492391e-08, w: .975386262}
+      scale: {x: 1.00000036, y: .999999881, z: .999999881}
+      transformModified: 1
+    - name: Skull
+      position: {x: -.11949683, y: 4.0494843e-09, z: 1.57337425e-07}
+      rotation: {x: -8.3469395e-08, y: .270114988, z: 4.81474167e-08, w: .9628281}
+      scale: {x: .999999583, y: .999999404, z: .999998808}
+      transformModified: 1
+    - name: ShoulderL
+      position: {x: -.296429873, y: -1.99186125e-08, z: 9.68372049e-08}
+      rotation: {x: -.43909058, y: -.408783406, z: .639429629, w: .480859011}
+      scale: {x: .999999404, y: .999999404, z: .999998689}
+      transformModified: 1
+    - name: HumerusL
+      position: {x: -.199035048, y: 1.94709271e-09, z: -3.72295517e-07}
+      rotation: {x: .00982797798, y: .00978425238, z: -.0980269834, w: .995087206}
+      scale: {x: .999999642, y: 1.00000036, z: .999999881}
+      transformModified: 1
+    - name: RadiusL
+      position: {x: -.286565214, y: 6.66214675e-08, z: 2.64996032e-07}
+      rotation: {x: -.0566007458, y: .0364058614, z: -.0028284851, w: .997728884}
+      scale: {x: 1.00000036, y: 1.0000006, z: 1}
+      transformModified: 1
+    - name: PalmL
+      position: {x: -.287304342, y: 5.8195063e-08, z: 3.60105794e-08}
+      rotation: {x: -.00238299603, y: .0841911212, z: .0581042692, w: .994751334}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: FingersL1
+      position: {x: -.0910834298, y: 9.74096181e-08, z: 1.31911577e-06}
+      rotation: {x: .000980112469, y: -.0465721227, z: -.0210172292, w: .998693407}
+      scale: {x: .999999821, y: 1.00000012, z: 1.00000119}
+      transformModified: 1
+    - name: FingersL2
+      position: {x: -.0543606021, y: 6.81842707e-08, z: 8.50021422e-07}
+      rotation: {x: -2.21109783e-10, y: 5.53843407e-08, z: -.0381742343, w: .999271154}
+      scale: {x: 1.00000012, y: 1.00000048, z: 1.00000048}
+      transformModified: 1
+    - name: ThumbL1
+      position: {x: -.287304938, y: 1.48515539e-07, z: 1.97845952e-06}
+      rotation: {x: .892428041, y: .442036778, z: .0637810007, w: -.0640909672}
+      scale: {x: .999999583, y: 1.0000006, z: 1.00000143}
+      transformModified: 1
+    - name: ThumbL2
+      position: {x: -.0861426219, y: 5.18408172e-07, z: 1.34367804e-06}
+      rotation: {x: -.935581446, y: -.341955334, z: -.0538408384, w: -.0696787834}
+      scale: {x: 1.00000012, y: 1.00000012, z: .999999225}
+      transformModified: 1
+    - name: ShoulderR
+      position: {x: -.296431005, y: 5.56515167e-10, z: 2.26159955e-07}
+      rotation: {x: -.439089358, y: .408778638, z: .639439523, w: -.480851084}
+      scale: {x: .999999762, y: .999999166, z: .999999762}
+      transformModified: 1
+    - name: HumerusR
+      position: {x: -.199013084, y: 3.39760788e-07, z: -2.72440752e-06}
+      rotation: {x: -.00982310437, y: .00978600606, z: .098038137, w: .995086074}
+      scale: {x: .999996901, y: .999999285, z: .999998212}
+      transformModified: 1
+    - name: RadiusR
+      position: {x: -.286565334, y: -3.60753234e-07, z: 2.37254221e-06}
+      rotation: {x: .056600675, y: .0364056379, z: .00282847253, w: .997728944}
+      scale: {x: 1.00000262, y: 1.0000006, z: 1.00000155}
+      transformModified: 1
+    - name: PalmR
+      position: {x: -.287303776, y: 5.13296179e-08, z: -1.83085922e-06}
+      rotation: {x: .00238319789, y: .0841914266, z: -.0581041798, w: .994751215}
+      scale: {x: .999998689, y: .999998987, z: .999998569}
+      transformModified: 1
+    - name: FingersR1
+      position: {x: -.0910830051, y: -3.75552602e-08, z: 5.35985919e-07}
+      rotation: {x: -.000980159384, y: -.0465721525, z: .0210171901, w: .998693407}
+      scale: {x: 1.00000012, y: 1.0000006, z: 1.00000036}
+      transformModified: 1
+    - name: FingersR2
+      position: {x: -.0543607883, y: -7.02942842e-08, z: 1.21125879e-06}
+      rotation: {x: -9.80402204e-10, y: 2.22980638e-08, z: .0381742232, w: .999271154}
+      scale: {x: 1.00000119, y: 1.00000036, z: 1.00000095}
+      transformModified: 1
+    - name: ThumbR1
+      position: {x: -.287304223, y: -4.80183449e-09, z: -5.47350908e-07}
+      rotation: {x: .8924281, y: -.442036688, z: .0637806505, w: .0640910715}
+      scale: {x: .999999762, y: .999999821, z: .999999821}
+      transformModified: 1
+    - name: ThumbR2
+      position: {x: -.0861425847, y: -1.10140313e-07, z: 3.31925833e-07}
+      rotation: {x: -.935581386, y: .341955453, z: -.0538408048, w: .069678925}
+      scale: {x: .999996781, y: 1.00000262, z: .999999464}
+      transformModified: 1
+    - name: PelvisL
+      position: {x: -.103146628, y: 2.26897057e-09, z: -9.70602173e-07}
+      rotation: {x: -.71098417, y: -.699189425, z: .0570020899, w: -.0488524213}
+      scale: {x: 1.00000048, y: 1.00000072, z: 1.00000072}
+      transformModified: 1
+    - name: UpperlegL
+      position: {x: -.117211156, y: -1.55366578e-07, z: -8.10339884e-07}
+      rotation: {x: .56203264, y: .535887539, z: .397227347, w: -.489034146}
+      scale: {x: .999999642, y: 1.00000036, z: .999998629}
+      transformModified: 1
+    - name: LowerlegL
+      position: {x: -.439088881, y: -1.67849876e-08, z: 1.31414268e-07}
+      rotation: {x: -.0349865034, y: .0467374288, z: .00253165537, w: .998291135}
+      scale: {x: .999999225, y: 1, z: 1.0000006}
+      transformModified: 1
+    - name: FootL
+      position: {x: -.516447365, y: -1.4194879e-08, z: 1.46810564e-07}
+      rotation: {x: -2.33418831e-07, y: -.537257016, z: 4.40175718e-08, w: .843418658}
+      scale: {x: 1.00000012, y: 1.00000048, z: 1.00000095}
+      transformModified: 1
+    - name: ToesL
+      position: {x: -.122453324, y: 1.36824625e-07, z: 7.7465856e-08}
+      rotation: {x: 1.80679706e-07, y: -.168553427, z: -4.9998679e-08, w: .985692501}
+      scale: {x: .999998987, y: .999999404, z: .999999225}
+      transformModified: 1
+    - name: HeelL
+      position: {x: -.516447365, y: -1.4194879e-08, z: 1.46810564e-07}
+      rotation: {x: -3.78496807e-08, y: .280601352, z: -6.1754271e-08, w: .959824383}
+      scale: {x: .999999642, y: .999999881, z: 1.00000024}
+      transformModified: 1
+    - name: PelvisR
+      position: {x: -.103146791, y: 6.81802659e-09, z: -2.70391666e-07}
+      rotation: {x: -.712186038, y: .700655937, z: .0345671065, w: .0260294769}
+      scale: {x: .999999344, y: .999999642, z: .999999583}
+      transformModified: 1
+    - name: UpperlegR
+      position: {x: -.117188178, y: 2.92544833e-08, z: -2.36429429e-07}
+      rotation: {x: -.489034325, y: -.397216201, z: -.535884321, w: .562043369}
+      scale: {x: 1, y: 1, z: .999999881}
+      transformModified: 1
+    - name: LowerlegR
+      position: {x: -.439089686, y: 1.86019221e-07, z: -1.25891205e-07}
+      rotation: {x: .998291194, y: .00253136898, z: .046737317, w: -.0349862128}
+      scale: {x: .999998868, y: .999999285, z: .999997973}
+      transformModified: 1
+    - name: FootR
+      position: {x: -.516446412, y: 2.73624607e-07, z: 1.57134863e-07}
+      rotation: {x: -1.9492451e-07, y: -.537256956, z: -2.1769182e-08, w: .843418658}
+      scale: {x: 1.00000238, y: 1.00000119, z: 1.00000215}
+      transformModified: 1
+    - name: ToesR
+      position: {x: -.122453332, y: -5.72728567e-08, z: 1.18382452e-07}
+      rotation: {x: 1.51596566e-08, y: -.168553546, z: -3.79909615e-08, w: .985692561}
+      scale: {x: .999999404, y: .999999404, z: .999999106}
+      transformModified: 1
+    - name: HeelR
+      position: {x: -.516446471, y: 1.33757737e-07, z: 1.26044682e-07}
+      rotation: {x: -2.70797624e-08, y: .280601442, z: -6.92016044e-09, w: .959824443}
+      scale: {x: 1.00000048, y: .999999881, z: 1.00000095}
+      transformModified: 1
+    - name: Skirtrig
+      position: {x: -1.27247005e-10, y: 8.1437932e-09, z: -2.60601382e-07}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 2.18608284, y: 2.18608284, z: 2.18608284}
+      transformModified: 1
+    - name: PelvisL_007
+      position: {x: -.116383113, y: .0552000105, z: 1.04071808}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: PelvisL_008
+      position: {x: -.0886708573, y: 7.4505806e-09, z: 0}
+      rotation: {x: .5, y: .5, z: .5, w: -.5}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: PelvisL_009
+      position: {x: -.342069536, y: 2.17593055e-08, z: 5.92435989e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: PelvisR_007
+      position: {x: .116360165, y: .0551999956, z: 1.04071796}
+      rotation: {x: -0, y: 0, z: 1, w: -7.55001537e-08}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: PelvisR_008
+      position: {x: -.0886708573, y: 4.88179097e-09, z: 0}
+      rotation: {x: .49999994, y: -.50000006, z: .49999994, w: .50000006}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: PelvisR_009
+      position: {x: -.342069507, y: 2.17593126e-08, z: 5.92428995e-10}
+      rotation: {x: 2.20554996e-09, y: .0292133931, z: 2.37322357e-18, w: .999573231}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Head2
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106888, y: 0, z: -0, w: .707106769}
+      scale: {x: .457439214, y: .457439214, z: .457439214}
+      transformModified: 1
+    - name: Legs
+      position: {x: 5.82080009e-11, y: 1.1920929e-07, z: 3.72528497e-09}
+      rotation: {x: -.707106888, y: 0, z: -0, w: .707106769}
+      scale: {x: .457439214, y: .457439214, z: .457439214}
+      transformModified: 1
+    - name: Malebody
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106888, y: 0, z: -0, w: .707106769}
+      scale: {x: .457439214, y: .457439214, z: .457439214}
+      transformModified: 1
+    - name: BipedRig_001
+      position: {x: -0, y: -2.03594808e-09, z: 2.60601382e-07}
+      rotation: {x: 7.57766263e-16, y: 6.81637546e-09, z: 2.13011747e-10, w: 1}
+      scale: {x: 2.37128735, y: 2.18608284, z: 2.35766816}
+      transformModified: 1
+    - name: Pelvis_0
+      position: {x: 8.76188278e-06, y: .133803681, z: 1.06227934}
+      rotation: {x: .704690516, y: .706201017, z: .0357787423, w: -.0584062822}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: Lowerback_0
+      position: {x: -.103160225, y: 2.60586535e-06, z: 8.09970297e-05}
+      rotation: {x: -.0417906381, y: -.712195694, z: -.0196032673, w: .700461745}
+      scale: {x: .999915898, y: .999952018, z: 1.00040543}
+      transformModified: 1
+    - name: Spine3
+      position: {x: -.175348714, y: -9.52650298e-05, z: .00109067163}
+      rotation: {x: .0435100123, y: -.0376024842, z: -.00163870619, w: .998343825}
+      scale: {x: .998598576, y: .998695433, z: 1.00268292}
+      transformModified: 1
+    - name: Spine4
+      position: {x: -.17098169, y: 5.26170027e-07, z: .000493949919}
+      rotation: {x: -3.19039088e-08, y: -.107266955, z: -7.33457739e-08, w: .99423033}
+      scale: {x: .998321474, y: 1, z: 1.00205982}
+      transformModified: 1
+    - name: Neck_0
+      position: {x: -.314448476, y: 3.66868721e-06, z: -.00141087081}
+      rotation: {x: 1.09952394e-08, y: .205194294, z: 2.20086545e-08, w: .978721261}
+      scale: {x: .990237474, y: .999999881, z: 1.0105648}
+      transformModified: 1
+    - name: Skull_0
+      position: {x: -.0794591829, y: -1.10478572e-06, z: .01296305}
+      rotation: {x: -4.63094025e-08, y: .260642081, z: -7.01138418e-08, w: .965435565}
+      scale: {x: 1.01305437, y: 1.00000012, z: .987803161}
+      transformModified: 1
+    - name: ShoulderL_0
+      position: {x: -.275769114, y: 3.25092037e-06, z: -.00679351529}
+      rotation: {x: -.394110411, y: -.458798945, z: .613585889, w: .50763464}
+      scale: {x: 1.00007534, y: 1.00677168, z: .993429303}
+      transformModified: 1
+    - name: HumerusL_0
+      position: {x: -.222154275, y: -.00080145133, z: .000248013006}
+      rotation: {x: .00577988848, y: .0330858454, z: .0225416962, w: .999181569}
+      scale: {x: 1.00026202, y: .999544561, z: 1.00024641}
+      transformModified: 1
+    - name: RadiusL_0
+      position: {x: -.257279843, y: -.00225908007, z: -.00239773747}
+      rotation: {x: -.0518352166, y: .0137529345, z: -.049588412, w: .997328937}
+      scale: {x: .998436213, y: 1.00300181, z: .998555541}
+      transformModified: 1
+    - name: PalmL_0
+      position: {x: -.28524217, y: -.000148513966, z: .000601835025}
+      rotation: {x: -.00226736208, y: .0837620869, z: .0536136739, w: .99503994}
+      scale: {x: 1.00008118, y: 1.0000577, z: .999981463}
+      transformModified: 1
+    - name: FingersL3
+      position: {x: -.090554297, y: -.00068415585, z: .0004283163}
+      rotation: {x: .000959947705, y: -.0463549457, z: -.0194068942, w: .998736024}
+      scale: {x: .998973548, y: 1.00058472, z: 1.00041604}
+      transformModified: 1
+    - name: FingersL4
+      position: {x: -.0540128015, y: -.000278356049, z: 5.85110683e-05}
+      rotation: {x: 8.46281196e-08, y: 3.48552049e-08, z: -.0352041759, w: .999380112}
+      scale: {x: .999239862, y: 1.00075805, z: 1.00000012}
+      transformModified: 1
+    - name: ThumbL3
+      position: {x: -.285441041, y: -.000141709854, z: .00111446937}
+      rotation: {x: .900494337, y: .424444705, z: .0680263415, w: -.0657967776}
+      scale: {x: .998746037, y: 1.00274909, z: 1.00054038}
+      transformModified: 1
+    - name: ThumbL4
+      position: {x: -.0842570513, y: .00420495495, z: .00389012927}
+      rotation: {x: -.939122736, y: -.331246078, z: -.0574526452, w: -.0708791092}
+      scale: {x: .970680654, y: 1.03206062, z: .997463405}
+      transformModified: 1
+    - name: ShoulderR_0
+      position: {x: -.275768518, y: 3.22033952e-06, z: -.00679359119}
+      rotation: {x: -.394103855, y: .458798796, z: .61359328, w: -.507631004}
+      scale: {x: 1.00006509, y: 1.00678146, z: .993429542}
+      transformModified: 1
+    - name: HumerusR_0
+      position: {x: -.222131953, y: .000784704054, z: .000247394462}
+      rotation: {x: -.00577483373, y: .0330944993, z: -.0225383434, w: .999181449}
+      scale: {x: 1.00025439, y: .999551713, z: 1.00024581}
+      transformModified: 1
+    - name: RadiusR_0
+      position: {x: -.257279813, y: .00223939191, z: -.00239713583}
+      rotation: {x: .0518350191, y: .0137527352, z: .0495884866, w: .997328997}
+      scale: {x: .998451948, y: 1.00298595, z: .99855727}
+      transformModified: 1
+    - name: PalmR_0
+      position: {x: -.285241812, y: .000127408377, z: .000604707515}
+      rotation: {x: .00226755789, y: .0837623253, z: -.0536136255, w: .995039821}
+      scale: {x: 1.00006735, y: 1.00007284, z: .999978662}
+      transformModified: 1
+    - name: FingersR3
+      position: {x: -.0905528963, y: .000677677686, z: .000427810795}
+      rotation: {x: -.000959890196, y: -.0463550463, z: .0194066279, w: .998736084}
+      scale: {x: .998977661, y: 1.00057912, z: 1.00041795}
+      transformModified: 1
+    - name: FingersR4
+      position: {x: -.0540122166, y: .000274402788, z: 5.91260323e-05}
+      rotation: {x: -8.38119192e-08, y: 1.43194638e-08, z: .0352044217, w: .999380171}
+      scale: {x: .999250948, y: 1.00074828, z: 1.00000012}
+      transformModified: 1
+    - name: ThumbR3
+      position: {x: -.285440624, y: .000120627854, z: .00111659837}
+      rotation: {x: .900494218, y: -.424444973, z: .0680260286, w: .0657967329}
+      scale: {x: .998673618, y: 1.00282478, z: 1.00053811}
+      transformModified: 1
+    - name: ThumbR4
+      position: {x: -.084257178, y: -.00420620898, z: .00389132719}
+      rotation: {x: -.939122617, y: .331246376, z: -.0574527085, w: .0708791539}
+      scale: {x: .970664799, y: 1.03207231, z: .997467339}
+      transformModified: 1
+    - name: PelvisL_0
+      position: {x: -.103156075, y: 1.82214615e-06, z: 5.60671833e-05}
+      rotation: {x: -.710716546, y: -.699516118, z: .0532634929, w: -.0521759801}
+      scale: {x: .999999166, y: 1.00031912, z: .999900699}
+      transformModified: 1
+    - name: UpperlegL_0
+      position: {x: -.117175139, y: .000769013888, z: .00459363637}
+      rotation: {x: .559602678, y: .531841278, z: .403050512, w: -.491467148}
+      scale: {x: .995872259, y: .999953747, z: 1.00439012}
+      transformModified: 1
+    - name: LowerlegL_0
+      position: {x: -.441848189, y: -.000359524391, z: -.00228664279}
+      rotation: {x: -.0327522531, y: .0430122241, z: -.00758642191, w: .998508751}
+      scale: {x: .999100864, y: .999255598, z: 1.00165999}
+      transformModified: 1
+    - name: FootL_0
+      position: {x: -.523152828, y: .000794164836, z: .000358731748}
+      rotation: {x: .00543931639, y: -.523552597, z: .00885592401, w: .851929963}
+      scale: {x: .998336554, y: .999994516, z: 1.00297344}
+      transformModified: 1
+    - name: ToesL_0
+      position: {x: -.12060979, y: .00172960211, z: -.00195325655}
+      rotation: {x: 1.46358829e-07, y: -.179077223, z: -1.32718739e-07, w: .983835101}
+      scale: {x: 1.01671791, y: .999999881, z: .983075619}
+      transformModified: 1
+    - name: HeelL_0
+      position: {x: -.522906005, y: .000494104694, z: .000398224831}
+      rotation: {x: -.00275457953, y: .264792919, z: .0100214835, w: .964249253}
+      scale: {x: .999702871, y: .999994397, z: 1.00196874}
+      transformModified: 1
+    - name: PelvisR_0
+      position: {x: -.103156172, y: 1.80127392e-06, z: 5.66569324e-05}
+      rotation: {x: -.712025166, y: .700862646, z: .0308194868, w: .0293602906}
+      scale: {x: .999998927, y: 1.000319, z: .99990046}
+      transformModified: 1
+    - name: UpperlegR_0
+      position: {x: -.117152177, y: -.000769160979, z: .00459409691}
+      rotation: {x: -.491467655, y: -.403039813, z: -.531838, w: .559613049}
+      scale: {x: .995871723, y: .999953389, z: 1.00439107}
+      transformModified: 1
+    - name: LowerlegR_0
+      position: {x: -.441848099, y: -.000359553815, z: .00228663371}
+      rotation: {x: .998508811, y: -.00758658303, z: .0430121236, w: -.0327520929}
+      scale: {x: .999100804, y: .999255598, z: 1.00165975}
+      transformModified: 1
+    - name: FootR_0
+      position: {x: -.523153782, y: -.000794141262, z: .000358701422}
+      rotation: {x: -.00543980254, y: -.523552537, z: -.00885600783, w: .851930022}
+      scale: {x: .998336852, y: .999994874, z: 1.00297379}
+      transformModified: 1
+    - name: ToesR_0
+      position: {x: -.120609708, y: -.00172946346, z: -.00195330987}
+      rotation: {x: 1.18082937e-07, y: -.179077223, z: -3.40671047e-09, w: .983835042}
+      scale: {x: 1.01671779, y: .999999821, z: .983076096}
+      transformModified: 1
+    - name: HeelR_0
+      position: {x: -.522906721, y: -.000494042237, z: .000398211007}
+      rotation: {x: .00275446801, y: .264792949, z: -.010021395, w: .964249253}
+      scale: {x: .999703109, y: .999994457, z: 1.00196886}
+      transformModified: 1
+    - name: Torso
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106888, y: 0, z: -0, w: .707106769}
+      scale: {x: .457439214, y: .457439214, z: .457439214}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 

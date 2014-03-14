@@ -54,8 +54,8 @@ function ShootBullet() {
 }
 
 function DamageEnemy(other : Collider) {
-	if(other.CompareTag("Enemy")) {
-		//other.SendMessage("ApplyDamage", damage);
+	if(other.CompareTag("Enemy") || other.CompareTag("Player")) {
+		other.SendMessage("ApplyDamage", damage);
 	}
 }
 

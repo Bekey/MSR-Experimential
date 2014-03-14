@@ -1,10 +1,12 @@
 ﻿#pragma strict
 
-private enum State { Idle, Patrolling, Chasing, Fleeing }; 
+private enum State { Idle, Patrolling, Chasing, Fleeing, Dead }; 
 private enum Awareness { None, Stir, Suspicious, Visual, Engage }; 
 
 public var state : State = State.Idle;
 public var aware : Awareness = Awareness.None;
+
+public var health : int = 10;
 
 //References
 private var controller : CharacterController;
@@ -27,10 +29,11 @@ function Start () {
 }
 
 function FixedUpdate () {
+	if(state == state.Dead) return;
 	if(!controller.isGrounded)
 		ApplyGravity();
 	
-	if(controller.isGrounded) {
+	if(controller.isGrounded || true) {
 		if(state == State.Patrolling) {
 			patrol.Patrol();
 		} else if(state == state.Chasing) {
@@ -55,6 +58,15 @@ function RotateTo(vec : Vector3, speed : float) : Quaternion {
 	newRotation.z = 0;
 	return Quaternion.Lerp(transform.rotation, Quaternion.Euler(newRotation), Time.fixedDeltaTime * speed);
 }*/
+
+function ApplyDamage(damage : int) {
+	health -= damage;
+	if(health <= 0) {
+		health = 0;
+		state = state.Dead;
+		nav.Stop();
+	}
+}
 
 function ApplyGravity() {
 	controller.Move(gravity * Time.fixedDeltaTime);

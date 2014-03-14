@@ -9,11 +9,13 @@ private var target : Vector3;
 
 private var master : BaseMobAI;
 private var agent : NavMeshAgent;
+private var anim : Animator;
 private var isPatrolling = false;
 
 function Awake() {
 	master = GetComponent(BaseMobAI);
 	agent = GetComponent(NavMeshAgent);
+	//anim = GetComponentInChildren(Animator);
 }
 
 function Start() {
@@ -33,6 +35,7 @@ function Patrol() {
 	
 	agent.speed = patrolSpeed;
 	if(agent.remainingDistance < agent.stoppingDistance) {
+	//	anim.SetBool("Walking", false);
 		patrolTimer += Time.fixedDeltaTime;
 		if(patrolTimer > patrolWaitTime) {
 			patrolTimer = 0;
@@ -60,6 +63,7 @@ function GetPatrolNode(next : boolean) : boolean {
 			patrolRoute = patrolRoute.nextWaypoint;
 		}
 		target = patrolRoute.GetRandom();
+//		anim.SetBool("Walking", true);
 		return agent.SetDestination(target);
 	}
 	return false;
