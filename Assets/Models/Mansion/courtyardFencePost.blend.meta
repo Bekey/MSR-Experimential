@@ -1,15 +1,23 @@
 fileFormatVersion: 2
-guid: a25fa553a10ae854fa9c1e310c770787
+guid: 71cca4dcd60adc243b7e3e9a349805db
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
-    100000: default
-    100002: //RootNode
-    400000: default
-    400002: //RootNode
-    2300000: default
-    3300000: default
-    4300000: default
+    100000: //RootNode
+    100002: fence
+    100004: fencePost
+    400000: //RootNode
+    400002: fence
+    400004: fencePost
+    2300000: //RootNode
+    2300002: fence
+    2300004: fencePost
+    3300000: //RootNode
+    3300002: fence
+    3300004: fencePost
+    4300000: fence
+    4300002: fencePost
+    7400000: Default Take
     9500000: //RootNode
   materials:
     importMaterials: 0
