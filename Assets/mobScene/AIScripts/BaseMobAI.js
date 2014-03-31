@@ -29,7 +29,11 @@ function Start () {
 }
 
 function FixedUpdate () {
-	if(state == state.Dead) return;
+	if(state == state.Dead) {
+		gameObject.active = false;
+		return;
+	}
+	
 	if(!controller.isGrounded)
 		ApplyGravity();
 	

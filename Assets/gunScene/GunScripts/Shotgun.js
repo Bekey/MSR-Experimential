@@ -48,7 +48,8 @@ public class Shotgun extends BaseGun {
 
 		if(Physics.Raycast(transform.position, direction, hit, Mathf.Infinity)) {
 			Debug.DrawLine(transform.position, hit.point,Color.green);
-			Instantiate(a, hit.point, Quaternion.identity);
+			Destroy(Instantiate(a, hit.point, Quaternion.identity), 0.10f);
+			
 			DamageEnemy(hit.collider);
 		}
 	}

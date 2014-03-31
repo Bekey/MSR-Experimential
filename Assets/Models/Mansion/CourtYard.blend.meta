@@ -4,10 +4,22 @@ ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
     100000: //RootNode
+    100002: courtyardMain
+    100004: courtyardMainUndergroundCover
     400000: //RootNode
+    400002: courtyardMain
+    400004: courtyardMainUndergroundCover
     2300000: //RootNode
+    2300002: courtyardMain
+    2300004: courtyardMainUndergroundCover
     3300000: //RootNode
+    3300002: courtyardMain
+    3300004: courtyardMainUndergroundCover
     4300000: default
+    4300002: courtyardMainUndergroundCover
+    4300004: courtyardMain
+    6400000: courtyardMain
+    6400002: courtyardMainUndergroundCover
     7400000: Default Take
     9500000: //RootNode
   materials:
@@ -30,7 +42,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

@@ -7,6 +7,7 @@ class PlayerGunController extends GunController {
 		if( hasEquipped ) {
 			if ( !isHolstered ) {
 				gunObject.transform.position = transform.position;
+				gunObject.transform.rotation = transform.rotation;
 				
 				if(Input.GetKeyDown(KeyCode.Mouse0)) 	StartShoot();
 				if(Input.GetKey(KeyCode.Mouse0)) 		Shoot();
@@ -15,6 +16,7 @@ class PlayerGunController extends GunController {
 				
 			} else {
 				gunObject.transform.position = holster.position;
+				gunObject.transform.rotation = holster.rotation;
 			}
 			if(Input.GetKeyDown(KeyCode.H)) Holster();
 		}

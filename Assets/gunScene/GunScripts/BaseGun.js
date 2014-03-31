@@ -47,6 +47,7 @@ function ShootBullet() {
 	if(Physics.Raycast(transform.position, direction, hit, Mathf.Infinity)) {
 		Debug.DrawLine(transform.position, hit.point,Color.green);
 		var clone : GameObject = Instantiate(a, hit.point, Quaternion.identity);
+		Destroy(clone.gameObject, 5.0f);
 		clone.transform.parent = hit.transform;
 		DamageEnemy(hit.collider);
 	}
@@ -54,9 +55,7 @@ function ShootBullet() {
 }
 
 function DamageEnemy(other : Collider) {
-	if(other.CompareTag("Enemy") || other.CompareTag("Player")) {
-		other.SendMessage("ApplyDamage", damage);
-	}
+	other.SendMessage("ApplyDamage", damage, SendMessageOptions.DontRequireReceiver);
 }
 
 function Reload() {

@@ -78,7 +78,8 @@ function InRange(range : float) : boolean {
 
 function isObstructed(other : Transform) : boolean {
 	var hit : RaycastHit;
-	if(Physics.Linecast(transform.position, other.position, hit)) {
+	Debug.DrawLine(transform.position + Vector3.up * 1.5f, other.position + Vector3.up * 1.5f);
+	if(Physics.Linecast(transform.position + Vector3.up * 1.5f, other.position  + Vector3.up * 1.5f, hit)) {
 		if(hit.transform == other) {
 			return false;
 		}

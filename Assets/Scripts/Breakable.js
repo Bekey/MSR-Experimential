@@ -12,7 +12,7 @@ function Update () {
 	if(health <= 0) {
 		health = 0;
 		for(var i = 0; i < amount; i++) {
-			var gib : GameObject = Instantiate(gib, transform.position+Random.insideUnitSphere*3, Random.rotation);
+			var gib : GameObject = Instantiate(gib, transform.position+Random.insideUnitSphere, Random.rotation);
 			Destroy(gib,20.0);
 			
 		}
